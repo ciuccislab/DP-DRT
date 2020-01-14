@@ -2,6 +2,13 @@ from math import pi
 from math import log
 import numpy as np
 
+# This script defines the matrices used for calculating the impedance from DRT
+# The detail equations and derivations can be found in this paper "Saccoccio, M., Wan, T. H., Chen, C., & Ciucci, F. (2014). Optimal regularization in distribution of relaxation times applied to electrochemical impedance spectroscopy: ridge and lasso regression methods-a theoretical and experimental study. Electrochimica Acta, 147, 470-482." [doi.org/10.1016/j.electacta.2014.09.058]
+# Please feel free to use it and cite the following publications 
+# 1. Saccoccio, M., Wan, T. H., Chen, C., & Ciucci, F. (2014). Optimal regularization in distribution of relaxation times applied to electrochemical impedance spectroscopy: ridge and lasso regression methods-a theoretical and experimental study. Electrochimica Acta, 147, 470-482. [doi.org/10.1016/j.electacta.2014.09.058](https://doi.org/10.1016/j.electacta.2014.09.058)
+# 2. Liu, J., & Ciucci, F. (2020). The Deep-Prior Distribution of Relaxation Times. Journal of The Electrochemical Society, 167(2), 026506.[10.1149/1945-7111/ab631a](https://iopscience.iop.org/article/10.1149/1945-7111/ab631a/meta)
+# For contact, please email: francesco.ciucci@ust.hk
+
 def A_re(freq):
     
     omega = 2.*pi*freq
