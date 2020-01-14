@@ -1,4 +1,3 @@
+pytorch
 numpy
 matplotlib
-scipy
-pandas

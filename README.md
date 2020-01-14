@@ -13,20 +13,14 @@ Electrochemical impedance spectroscopy (EIS) is the established tool for the stu
 `pytorch`
 
 `numpy`
-
-`scipy`
  
 `matplotlib`
 
 # Tutorials
 
-* **ex1_simple_ZARC_model.ipynb**: shows how to recover DRT from impedance synthesized using one ZARC element consisting of a resistance placed in parallel to a constant phase element (CPE). The frequency range is from 1E-4 Hz to 1E4 Hz with 10 points per decade (ppd).
+* **Figure_2.ipynb**: shows how to recover DRT from impedance synthesized using one ZARC element consisting of a resistance placed in parallel to a constant phase element (CPE). The frequency range is from 1E-4 Hz to 1E4 Hz with 10 points per decade (ppd).
 
-* **ex2_double_ZARC_model.ipynb**: shows how the GP-DRT model can manage the overlapping timescales from two ZARC elements in series. The frequency range is from 1E-4 Hz to 1E4 Hz with 10 points per decade (ppd).
-
-* **ex3_truncated_ZARC_model.ipynb**: shows how the GP-DRT model can recover the DRT from the truncated impedance, whose data points at lower frequencies (f < 1E-3 Hz) are not available, and predict the impedance value at these `unmeasured` frequency points.
-
-* **ex4_real_experimental_data.ipynb**: shows an example of real experimental impedance that may represent SOFC. In this tutorial, the impedance data is read from the csv file, and DRT is automatically predicted by the GP-DRT model.
+* **Figure_3.ipynb**: shows how the GP-DRT model can manage the overlapping timescales from two ZARC elements in series. The frequency range is from 1E-4 Hz to 1E4 Hz with 10 points per decade (ppd).
 
 # Citation
 
