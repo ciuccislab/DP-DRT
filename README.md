@@ -20,8 +20,6 @@ Electrochemical impedance spectroscopy (EIS) is the established tool for the stu
 
 * **Figure_2.ipynb**: shows how to recover DRT from impedance synthesized using one ZARC element consisting of a resistance placed in parallel to a constant phase element (CPE). The frequency range is from 1E-4 Hz to 1E4 Hz with 10 points per decade (ppd).
 
-* **Figure_3.ipynb**: shows how the GP-DRT model can manage the overlapping timescales from two ZARC elements in series. The frequency range is from 1E-4 Hz to 1E4 Hz with 10 points per decade (ppd).
-
 # Citation
 
 ```
