@@ -1,5 +1,5 @@
 # Project
-DP-DRT: Deep Prior Distribution of Relaxation Times
+DP-DRT: Deep-Prior Distribution of Relaxation Times
 
 This repository contains the code for one example as shown in the paper "The Deep-Prior Distribution of Relaxation Times" <u>https://iopscience.iop.org/article/10.1149/1945-7111/ab631a/meta</u>.
 
